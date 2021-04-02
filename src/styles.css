@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+.audital_sbar {
+  width: 219px;
+  height: 100%;
+  border-right: 1px solid #eeedef;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.audital_sbar_topm_group {
+  box-sizing: border-box;
+  padding: 4px;
+  margin-top: 22px;
+}
+.audital_sbar_topm_item {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.audital_sbar_topm_H {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.audital_sbar_topm_item:hover {
+  background: #e7edee;
+}
+.audital_sbar_topm_item_txt {
+  margin-left: 18px;
+  line-height: 16px;
+  font-size: 13px;
+  color: #3c4148;
+}
+
+.audital_audit_grp_heading {
+  font-style: normal;
+  color: rgb(107, 111, 118);
+  font-size: 12px;
+  font-weight: 500;
+  display: block;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 4px;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  align-self: flex-start;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.audital_button_shaded {
+  box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px;
+}
