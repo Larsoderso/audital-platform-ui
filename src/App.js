@@ -5,6 +5,7 @@ import TemplatesIcon from "./assets/icons/templates_icon";
 import SpreadsheetExample from "./components/spreadsheet";
 import "./styles.css";
 
+// Main
 export default function App() {
   return (
     <div className="App">
